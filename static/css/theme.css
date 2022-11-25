@@ -12,6 +12,7 @@
     --text-secondary-color: var(--text-secondary-color-dark) !important;
     --primary-color: var(--primary-color-dark);
     --secondary-color: var(--secondary-color-dark);
+    --highlight-color: var(--highlight-color-dark);
 }
 
 .text-secondary {
@@ -43,5 +44,5 @@ body:not(.dark) #sun {
 
 body *::selection {
     color: var(--text-color) !important;
-    background-color: var(--primary-color) !important;
+    background-color: var(--highlight-color) !important;
 }

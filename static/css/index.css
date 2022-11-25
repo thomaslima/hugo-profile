@@ -65,7 +65,7 @@ header .navbar.animate {
 .tooltip-inner {
     line-height: 1rem;
 }
-.tooltip .tooltip-arrow { 
+.tooltip .tooltip-arrow {
     visibility: hidden !important;
 }
 
@@ -73,7 +73,7 @@ header .navbar.animate {
 
 #hero {
     min-height: 100vh;
-    line-height: 2rem;
+    line-height: 2;
     max-width: 100%;
 }
 #hero .content.animate {
@@ -93,12 +93,12 @@ header .navbar.animate {
 }
 
 #hero h2 {
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(40px, 3.5vw, 80px);
     color: var(--primary-color) !important;
 }
 
 #hero h3 {
-    font-size: clamp(40px, 8vw, 60px);
+    font-size: clamp(40px, 3vw, 60px);
     /* color: var(--primary-color) !important; */
     opacity: 0.5;
 }
@@ -239,7 +239,7 @@ header .navbar.animate {
 #about .content {
     font-weight: 500;
     opacity: 0.9 !important;
-    line-height: 1.7rem !important;
+    line-height: 1.7 !important;
 }
 
 #about a {
@@ -299,7 +299,7 @@ header .navbar.animate {
 
 #experience .nav-item .nav-link {
     color: var(--text-color) !important;
-    border-bottom: 2px solid transparent; 
+    border-bottom: 2px solid transparent;
     border-radius: 0%;
     transition: none;
     cursor: pointer;
@@ -307,11 +307,11 @@ header .navbar.animate {
 
 #experience .nav-item .nav-link.active {
     color: var(--text-color) !important;
-    border-bottom: 2px solid var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color);
     opacity: 0.8;
 }
 
-#experience .nav-item .nav-link.active:hover { 
+#experience .nav-item .nav-link.active:hover {
     transition: none !important;
 }
 

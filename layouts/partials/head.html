@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/font.css" media="all">
 
 <!-- Internal templates -->
-{{ template "_internal/google_analytics_async.html" . }}
+{{ template "_internal/google_analytics.html" . }}
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
@@ -52,6 +52,7 @@
         --secondary-background-color: {{ .Site.Params.color.secondaryBackgroundColor | default "#64ffda1a" }};
         --primary-color: {{ .Site.Params.color.primaryColor | default "#007bff" }};
         --secondary-color: {{ .Site.Params.color.secondaryColor | default "#f8f9fa" }};
+        --highlight-color: {{ .Site.Params.color.highlightColor | default "#007bff" }};
 
         /* dark mode colors */
         --text-color-dark: {{ .Site.Params.color.darkmode.textColor | default "#e4e6eb" }};
@@ -60,6 +61,7 @@
         --secondary-background-color-dark: {{ .Site.Params.color.darkmode.secondaryBackgroundColor | default "#212529" }};
         --primary-color-dark: {{ .Site.Params.color.darkmode.primaryColor | default "#ffffff" }};
         --secondary-color-dark: {{ .Site.Params.color.darkmode.secondaryColor | default "#212529" }};
+        --highlight-color-dark: {{ .Site.Params.color.darkmode.highlightColor | default "#ffffff" }};
     }
     body {
         font-size: {{ .Site.Params.font.fontSize | default "1rem" }};
